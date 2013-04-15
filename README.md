@@ -13,5 +13,9 @@ PowerShell object.
 
 The target computer must of course be manufactured by Dell.
 
-The script requires an API Key (string), which you may be able to find
-on the internet, or by talking to your Dell representative.
+I've finally published the API key that I'm using to query Dell's website
+for this information. I was skeptical at first because I wasn't sure if it
+was appropriate for me to do that. Recently, I've found a few different
+places on the Internet which are easily findable with a little Googling
+where API keys are posted publicly. I figure the cat is out of the bag now
+and there's no need for me to hide it (at least until Dell says otherwise).

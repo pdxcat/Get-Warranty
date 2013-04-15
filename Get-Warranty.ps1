@@ -9,7 +9,7 @@
 		[Parameter(Mandatory=$false)]
 		[Switch]$Latest=$false
 	)
-	$apiKey = '' # Insert Dell API key here - needed to talk to api.dell.com
+	$apiKey = '1adecee8a60444738f280aad1cd87d0e'
 	
 	foreach($Computer in $ComputerName) {
 		$computerIsUp = Test-Connection $Computer -Count 1 -Quiet
