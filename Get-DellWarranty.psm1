@@ -75,7 +75,7 @@ foreach($Comp in $Computer) {
                 $age = "{0:N2}" -f (([datetime]::now - $age).days / 365)
                 
                 $output = New-Object -Type PSCustomObject
-                Add-Member -MemberType NoteProperty -Name 'ComputerName' -Value $comp -InputObject $output
+                Add-Member -MemberType NoteProperty -Name 'ComputerName' -Value $compName -InputObject $output
                 Add-Member -MemberType NoteProperty -Name 'Model' -Value $model -InputObject $output
                 Add-Member -MemberType NoteProperty -Name 'ServiceTag' -Value $serviceTag -InputObject $output
                 Add-Member -MemberType NoteProperty -Name 'Age' -Value $age -InputObject $output
